@@ -173,7 +173,7 @@ public class Main
                        if(a.contains(movieNames[i])){
                                cart.setMovie(a);
                                cart.setPrice(10.0);
-                               System.out.println(a+" is added to your shopping cart and your current cost is $" + cart.getPrice());
+                               System.out.println(movieNames[i]+" is added to your shopping cart and your current cost is $" + cart.getPrice());
                                System.out.println("Would your like to select ONE snack from our menu? We have cheesy nachos for $4.99, butter popcorn for $3.99, soda for $2.99, chocolate for $1.99, and candy for $0.99.");
                                 return true;
                        }
